@@ -44,7 +44,7 @@ class BoardFrame extends React.Component {
         <h1>Spelling Masta</h1>
         <div className="topbar">
           {/* only render Timer if audioUrl exists */}
-          {audioUrl && audioUrl.length > 0 
+          {audioUrl
             ?
             <Timer wordSubmit={wordSubmit} 
               audioUrl={audioUrl} 

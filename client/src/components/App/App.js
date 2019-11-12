@@ -3,7 +3,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import StartMenu from "../StartMenu/StartMenu";
 import Board from "../Board/Board";
 import "./App.css";
-import LeaderForm from "../LeaderForm/LeaderForm";
 
 class App extends React.Component {
   constructor(props) {
@@ -42,8 +41,6 @@ class App extends React.Component {
               <Board />
             }/>
       
-            <LeaderForm />
-            
           </Switch>
         </div>
       </BrowserRouter>
