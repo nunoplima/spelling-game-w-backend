@@ -32,3 +32,9 @@
     width: 97vw;
   }
 }
+
+@media screen and (max-height: 400px) {
+  #leaderTable.container {
+    margin-bottom: 0!important;
+  }
+}

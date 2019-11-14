@@ -54,7 +54,7 @@ class GameOver extends React.Component {
               {wrongAnswersArr.map((obj, idx) => (
                 <tr key={idx}>
                   <td>{idx + 1}</td>
-                  <td>{obj.userInput ? obj.userInput : `No user input`}</td>
+                  <td>{obj.userInput ? obj.userInput.toLowerCase() : `No user input`}</td>
                   <td>{obj.correctWord}</td>
                 </tr>
               ))}
